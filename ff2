@@ -18,7 +18,7 @@ do
        end
        end)
        
-           local MagSection = Variables.CatchingTab:AddSection("Main")
+    
        local place0 = MagSection:AddToggle("No Out Of Bounds", {flag = "OOB_Enabled"}, function(state) 
        if state then
      spawn(function()
