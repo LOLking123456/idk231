@@ -24,7 +24,7 @@ spawn(function()
 	CoreGui:SetCore("SendNotification", {
 		-- Customizable
 		Title = "Infinite Jump (WORKING)",
-		Text = "DO NOT TO HIGH!",
+		Text = "DO NOT GO TOO HIGH!",
 		Duration = 7, -- Set the duration to how much you want this to stay
 		-- More code in part 2
 	})
